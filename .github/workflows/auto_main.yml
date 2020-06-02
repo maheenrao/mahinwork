@@ -29,6 +29,6 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Installing surge
       run: npm install --global surge
-    - name: deploing using surge
+    - name: deploying using surge
       run: surge ./  mahinwork.surge.sh token ${{ secrets.TOKEN }} 
 
