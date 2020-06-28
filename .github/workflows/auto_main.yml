@@ -15,5 +15,5 @@ jobs:
 
             - run: npm install -g surge
             - run: echo "Deploying website"
-            - run: surge ./  mahinwork.surge.sh token ${{ secrets.TOKEN }} 
+            - run: surge ./  projectbymaheenrao109.surge.sh token ${{ secrets.TOKEN }} 
 
