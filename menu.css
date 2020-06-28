@@ -8,7 +8,7 @@ header{
 nav{
     width: 100%;height: 15vh;
     background: rgba(0,0,0,0.2);
-    color: pink; display: flex; justify-content: space-between;
+    color: white; display: flex; justify-content: space-between;
     align-items: center; text-transform: uppercase;
 }
 
@@ -26,9 +26,7 @@ nav .menu a{
     text-decoration:none; color: white;
     font-weight: bold;
 }
-nav .menu a:first-child{
-    color: pink
-}
+
 
 section h3{
     font-size: 40px; font-weight: 200; letter-spacing: 3px;
