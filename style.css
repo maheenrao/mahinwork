@@ -7,7 +7,7 @@ body{
    
 }
 header{
-    color:black;
+    color:#fff;
     width: 80%;
     margin: auto;
     overflow: hidden;
@@ -15,7 +15,7 @@ header{
 }
 .head{
     float: left;
-    color: black;
+    color: #fff;
     font-family: cursive;
 }
 nav{
@@ -26,7 +26,7 @@ li{
     padding: 1rem;
 }
 li a{
-    color: black;
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
 }
@@ -40,17 +40,17 @@ li a{
     margin-top: 1%;
 }
 showcase h1{
-    color:black;
+    color:#fff;
     font-family: cursive;
     text-align: center;
 }
 showcase h3{
-    color: black;
+    color: #fff;
     text-align: center;
     letter-spacing: 2px;
 }
 .category{
-    color: black;
+    color: #fff;
     margin-top: 5%;
     display: flex;
     text-align: center;
