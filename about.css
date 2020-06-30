@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Ubuntu-Regular';
+    src: url('./fonts/Ubuntu-Regular.ttf');
+} 
+body{
+    width: 100%; height: 98vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url(image/IMG-20200626-WA0019.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-dark{
+    background: rgba(0,0,0,0.2) !important;
+    color: white;
+}
+a h2{
+    font-style: italic !important;
+    font-size: 30px;
+}
+
+.space{
+    font-family: 'Ubuntu-Regular';
+    margin-right: 60px;
+    color: white;
+    font-size: 18px;
+}
+.space:hover{
+    color: rgb(241, 210, 73) !important;
+
+}
+.text-white{
+    font-family: 'Ubuntu-Regular';
+    margin-left: 10px;
+    font-size: 18px;
+}
+.about{
+    color: #ffffff;
+    background-color: #1d0e0e34;
+    margin-top: 10%;
+}
+
+.icon2{
+    border-radius: 15px;
+}
+.icon2:hover{
+    box-shadow: 2px 3px 10px 10px rgba(241, 73, 73, 0.589);
+
+}
+.text-center:hover{
+    color: rgb(241, 210, 73);
+
+}
+

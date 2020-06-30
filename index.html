@@ -1,83 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resturant Web Template</title>
+    <link rel="stylesheet" href="./Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Bootstrap/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="about.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https//fonts.googleapis.com/css?family+Josefin=Sans&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <!--Header-->
 
-<header>
-    <nav>
-        <label class="logo">Virtual Kitchen</label>
-        <ul>
-    <li><a class="active" href="#">Home</a></li>
-    <li><a href="#">Features
-            <i class="fas fa-caret-down"></i>
-          </a>
-            <ul>
-    <li><a href="#">Party</a></li>
-    <li><a href="#">Grill</a></li>
-    <li><a href="#">Desi</a></li>
-    </ul>
-    </li>
-    <li><a href="#">Services
-            <i class="fas fa-caret-down"></i>
-          </a>
-            <ul>
-    <li><a href="#">order online</a></li>
-    <li><a href="#">free delievry</a></li>
-    <li><a href="#">Others
-                <i class="fas fa-caret-right"></i>
-              </a>
-                <ul>
-    <li><a href="#">Links</a></li>
-    <li><a href="#">Works</a></li>
-    <li><a href="#">Status</a></li>
-    </ul>
-    </li>
-    </ul>
-    </li>
-    <li><a href="#">Contact</a></li>
-    <li><a href="#">Feedback</a></li>
-    </ul>
-    </nav>
-    
-    </header>
-    <!-- End of Header -->
-<!-- Showcase -->  
-    <showcase>
-        <div class="container">
-            <h1>Food Taste better when you share with others </h1>
-            <h3>Speciallity in Desi and party foods</h3>
-            <div class="category">
-            <div class="grill">
-                <img src="image/beef-steak-is-cooked-fire-beef-rib-bbq_109285-2.jpg" alt="">
-                <h4> Grill </h4>
-                <p> Grill </p>
-            </div>
-            <div class="desi">
-                <img src="image/mutton-curry-handi-food-photography_162831-3.jpg" alt="">
-                <h4> Desi Maza</h4>
-                <p> All kind of desi</p>
-            </div>
 
-            <div class="snacks">
-                <img src="image/fresh-hamburger-with-fries_23-2148575384.jpg" alt="">
-                <h4>Snacks</h4>
-                <p> All kind of Snacks</p>
-            </div>
-            <div class="party">
-                <img src="./image/scattered-beer-snacks-assortment_127657-11990.jpg" alt="">
-                <h4> Party </h4>
-                <p> Party foods </p>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand text-white" href="#">
+            <h2>Virtual Kitchen</h2>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-white space" href="index.html">Home <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white space" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white space" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white space" href="about.html">About Us</a>
+                </li>
+            </ul>
         </div>
-    </showcase>
-    <!-- Showcase -->  
-<a href="#"><button class="btn">Read More</button></a>
- <section></section>
+    </nav>
+
+
+
+    <div class="container-fluid">
+
+        <div class="container-1">
+            <div class="heading">
+                <h1>Food Taste better when you share with others </h1>
+                <h3>Speciallity in Desi and party foods</h3>
+            </div>
+            <div class="category">
+                <div class="grill">
+                    <img src="image/beef-steak-is-cooked-fire-beef-rib-bbq_109285-2.jpg" alt="">
+                    <h4> Grill </h4>
+                    <p> Grill </p>
+                </div>
+                <div class="desi">
+                    <img src="image/mutton-curry-handi-food-photography_162831-3.jpg" alt="">
+                    <h4> Desi Maza</h4>
+                    <p> All kind of desi</p>
+                </div>
+
+                <div class="snacks">
+                    <img src="image/fresh-hamburger-with-fries_23-2148575384.jpg" alt="">
+                    <h4>Snacks</h4>
+                    <p> All kind of Snacks</p>
+                </div>
+                <div class="party">
+                    <img src="./image/scattered-beer-snacks-assortment_127657-11990.jpg" alt="">
+                    <h4> Party </h4>
+                    <p> Party foods </p>
+                </div>
+            </div>
+            <a href="#"><button class="btn">Read More</button></a>
+
+        </div>
+
+
+
+
+        <!-- <showcase>
+            <div class="container-1">
+                <h1>Food Taste better when you share with others </h1>
+                <h3>Speciallity in Desi and party foods</h3>
+                <div class="category">
+                    <div class="grill">
+                        <img src="image/beef-steak-is-cooked-fire-beef-rib-bbq_109285-2.jpg" alt="">
+                        <h4> Grill </h4>
+                        <p> Grill </p>
+                    </div>
+                    <div class="desi">
+                        <img src="image/mutton-curry-handi-food-photography_162831-3.jpg" alt="">
+                        <h4> Desi Maza</h4>
+                        <p> All kind of desi</p>
+                    </div>
+
+                    <div class="snacks">
+                        <img src="image/fresh-hamburger-with-fries_23-2148575384.jpg" alt="">
+                        <h4>Snacks</h4>
+                        <p> All kind of Snacks</p>
+                    </div>
+                    <div class="party">
+                        <img src="./image/scattered-beer-snacks-assortment_127657-11990.jpg" alt="">
+                        <h4> Party </h4>
+                        <p> Party foods </p>
+                    </div>
+                </div>
+        </showcase> -->
+        <!-- Showcase -->
+        <!-- <a href="#"><button class="btn">Read More</button></a> -->
+
+
+
+
+
+
 </body>
+
 </html>
